@@ -101,7 +101,7 @@ plot4 <- function() {
         
 plot4a <- function() {
         
-        ## plot4a is thankfully simple - Time vs Voltage
+        ## plot4a is thankfully simple - Voltage vs Time
         
         plot(
                 x = data$Date.Time,
@@ -116,7 +116,7 @@ plot4a <- function() {
 
 plot4b <- function() {
         
-        ## plot4b is also simple - Time vs Global Reactive Power
+        ## plot4b is also simple - Global Reactive Power vs Time
         
         plot(
                 x = data$Date.Time,
